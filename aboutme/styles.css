@@ -1,0 +1,63 @@
+div.content {
+    width: 1600px;
+    margin: auto;
+    text-align: center;
+  }
+div.background {
+    height: "725";
+    background-color: "#81f35a";
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}   
+footer{
+    background-color: "c4be34";
+    color: aqua;
+}
+footer a{
+    color: rebeccapurple;
+}
+footer a:hover{
+    color:darksalmon;
+}
+h4{
+    color:azure ;
+}
+.book{
+    color: antiquewhite;
+    background-color: blanchedalmond;
+}
+body{
+    background-color: "#81f35a";
+}
+header{
+    background-color: "#2c8e9c";
+}
+nav a:hover{
+    background-color: "a81794";
+}
+#background{
+    background-color: "ccffcc"
+}
+.msg{
+    background-color: "ffffff"
+}
+.book{
+    background-color: "b42525"
+}
+.join{
+    background-color: "b4b425"
+}
+.book:hover{
+    background-color: grey;
+}
+.join:hover{
+    background-color: mediumturquoise;
+}
+.icon{
+    max-width: 80px;
+}
+footer p:hover{
+    text-decoration: underline;
+}
