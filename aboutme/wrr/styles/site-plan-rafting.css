@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,7 +11,7 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
+  --heading-font: "Patua One";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -29,24 +29,39 @@ Fonts are separated by a & */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+.home-title {
+  font-family: 'Patua One', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+          
+
+.msg {
+  background-color:darkred ;
+  line-height: 1.5em;
+  padding: 35px;
+}
+                          
 body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
+
 }
 img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -66,15 +81,20 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  border-radius: 5px;
+}
+.msg p{
+  padding-bottom: 10px;
 }
 .colors {
   width: 100%;
   min-width: 350px;
   margin: 30px auto;
   text-align: center;
+  border-radius: 20px;
 }
 .colors th {
-  background-color: #999;
+  background-color: 8#999;
 }
 .colors td{
   width: 25%;
@@ -107,10 +127,9 @@ nav  {
   display: flex;
 }
 nav a {
-  padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding:35px;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -118,6 +137,9 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+.icon{
+  padding-top: 15px;
 }
 .sitemap {
   display: grid;
@@ -161,4 +183,27 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.book
+{
+  background-color: chartreuse;
+  font-size: 18px;
+  padding: 30px;
+  margin-top: 50px;
+}
+.join
+{
+  text-align: center;
+  font: size 18px; ;
+  padding: 15px;
+  margin-top: 50px;
+}
+footer{
+  padding: 25px;
+  margin-top: 200px;
+}
+
+footer .social img{
+  padding-top: 15px;
+  border: 10px;
 }
